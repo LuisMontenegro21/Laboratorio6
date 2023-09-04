@@ -115,6 +115,11 @@ fun successfullLogIn(username: String, password: String): Boolean {
     return username == "mon21699" && password == "123abc"
 }
 
+
+fun LogOut(): Boolean {
+    return true
+}
+
 @Composable
 fun MyGallery(onNavigate: (Int) -> Unit, currentPage: Int){
     val artworkTitle = listOf(
